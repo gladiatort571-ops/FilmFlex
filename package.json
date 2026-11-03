@@ -1,0 +1,27 @@
+{
+  "name": "filmflex",
+  "version": "1.0.0",
+  "description": "FilmFlex - RAM-based torrent streaming server (peerflix engine with in-memory chunk cache)",
+  "main": "stream.js",
+  "bin": {
+    "filmflex": "./stream.js"
+  },
+  "scripts": {
+    "start": "node stream.js"
+  },
+  "keywords": [
+    "torrent",
+    "streaming",
+    "peerflix",
+    "ram",
+    "video",
+    "movie",
+    "tv",
+    "streaming-server",
+    "hls"
+  ],
+  "type": "commonjs",
+  "dependencies": {
+    "peerflix": "^0.39.0"
+  }
+}
