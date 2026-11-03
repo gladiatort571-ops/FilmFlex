@@ -144,25 +144,25 @@ Or install directly from the source tree:
 
 ```bash
 npm install -g .
-filmflex <TORRENT_HASH>
+ff <TORRENT_HASH>
 ```
 
 ## Usage
 
 ```bash
-node stream.js <TORRENT_HASH>
+ff <TORRENT_HASH>
 ```
 
-or, if installed globally:
+or, from a clone:
 
 ```bash
-filmflex <TORRENT_HASH>
+node stream.js <TORRENT_HASH>
 ```
 
 Example:
 
 ```bash
-node stream.js 0123456789abcdef0123456789abcdef01234567
+ff 0123456789abcdef0123456789abcdef01234567
 ```
 
 FilmFlex will print the local stream address once the engine is ready:
