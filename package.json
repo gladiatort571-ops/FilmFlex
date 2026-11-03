@@ -4,6 +4,7 @@
   "description": "FilmFlex - RAM-based torrent streaming server (peerflix engine with in-memory chunk cache)",
   "main": "stream.js",
   "bin": {
+    "ff": "./stream.js",
     "filmflex": "./stream.js"
   },
   "scripts": {

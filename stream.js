@@ -6,7 +6,7 @@ const hash = (process.argv[2] || '').trim();
 
 if (!hash) {
   console.error('Error: Please provide a torrent hash!');
-  console.log('Usage: filmflex <TORRENT_HASH>');
+  console.log('Usage: ff <TORRENT_HASH>');
   process.exit(1);
 }
 
